@@ -1,40 +1,40 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace KUMO
 {
     /// <summary>
-    /// ²Ä¤@­Óµ{¦¡
+    /// ç¬¬ä¸€å€‹ç¨‹å¼
     /// </summary>
     public class FirstScript : MonoBehaviour
     {
         #region   
-        // ÁY±Æ §Ö±¶Áä Tab
-        // ®æ¦¡¤Æ¤å¥ó Ctrl + K D
-        // ³æ¦æµù¸Ñ
+        // ç¸®æ’ å¿«æ·éµ Tab
+        // æ ¼å¼åŒ–æ–‡ä»¶ Ctrl + K D
+        // å–®è¡Œè¨»è§£
 
         /*
-         * ¦h¦æµù¸Ñ
-         * ¦h¦æµù¸Ñ
+         * å¤šè¡Œè¨»è§£
+         * å¤šè¡Œè¨»è§£
         */
         #endregion
-        #region ¨Æ¥ó°Ï°ì
-        // ³ê¿ô¨Æ¥ó : ¹CÀ¸¶}©l®É°õ¦æ¤@¦¸
+        #region äº‹ä»¶å€åŸŸ
+        // å–šé†’äº‹ä»¶ : éŠæˆ²é–‹å§‹æ™‚åŸ·è¡Œä¸€æ¬¡
         private void Awake()
         {
-            //¿é¥X(°T®§);
-            print("«¢Åo¡A¨U¼w :D");  
+            //è¼¸å‡º(è¨Šæ¯);
+            print("å“ˆå›‰ï¼Œæ²ƒå¾· :D");  
         }
         
-        // ¶}©l¨Æ¥ó : ¦b Awake «á°õ¦æ¤@¦¸
+        // é–‹å§‹äº‹ä»¶ : åœ¨ Awake å¾ŒåŸ·è¡Œä¸€æ¬¡
         private void Start()
         {
-            print("<color=red>³o¬O¶}©l¨Æ¥ó</color>");
+            print("<color=red>é€™æ˜¯é–‹å§‹äº‹ä»¶</color>");
         }
 
-        //§ó·s¨Æ¥ó:¦b start «á°õ¦æ¡A°õ¦æ¦¸¼Æ¬ù 60 FPS
+        //æ›´æ–°äº‹ä»¶:åœ¨ start å¾ŒåŸ·è¡Œï¼ŒåŸ·è¡Œæ¬¡æ•¸ç´„ 60 FPS
         private void Update()
         {
-            print("<color=orange>§ó·s¨Æ¥ó!</color>");
+            print("<color=orange>æ›´æ–°äº‹ä»¶!</color>");
         }
         #endregion
     }
