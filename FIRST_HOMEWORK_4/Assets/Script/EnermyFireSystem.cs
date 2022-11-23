@@ -19,5 +19,10 @@ namespace KUMO
             InvokeRepeating("SpawnBullet", 0, interval);
         }
 
+        private void OnBecameInvisible()
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

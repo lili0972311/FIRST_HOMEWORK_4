@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 7245282148586282165}
   - component: {fileID: 1451309386100810617}
   - component: {fileID: 563142695}
+  - component: {fileID: 563142701}
   m_Layer: 9
   m_Name: "\u6575\u6A5F"
   m_TagString: Untagged
@@ -191,4 +192,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBullet: {fileID: 3881076157133538237, guid: b3d248df645b2394b8eb74c0e98e5459, type: 3}
   pointSpawn: {fileID: 308872712}
-  interval: 1
+  soundFire: {fileID: 8300000, guid: 033b1daf4512444018111f90f909d172, type: 3}
+  interval: 0.5
+--- !u!114 &563142701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944379075745862360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea102679f289f0d4db80d5a9e087e8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTarget: "\u5B50\u5F48"
+  prefabExplosion: {fileID: 6472356282820106470, guid: c7d273a5dc88e414b98847fb08027763, type: 3}
+  soundHit: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+  soundExplosion: {fileID: 8300000, guid: eeac7ff7e4ad44587b11429a7e7b8fc1, type: 3}
